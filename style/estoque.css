@@ -1,0 +1,71 @@
+.back-color{
+    background-color: white;
+}
+
+.padding15{
+    padding: 15px;
+    color: #9adfda;
+    font-size: 35px;
+    text-shadow: 0px 3px 0px #b3f5f07c;
+}
+
+.colunas{
+    display: inline-block;
+    margin: 50px;
+}
+
+.border-ofertas{
+    background: rgb(221, 240, 233);
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.joias-info{
+    width: 230px;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+
+a.botao{
+    background: #A8F5F0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+} 
+
+a.botao:hover{
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+} 
+
+s{
+    color: #8bccc8;
+    font-weight: bold;
+}
+
+.border-ofertas a h4{
+    color: #000;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .colunas{
+        display: inline-block;
+        margin: 30px;
+    }
+    
+}

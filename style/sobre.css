@@ -1,0 +1,58 @@
+.logo-karina{
+    width: 400px;
+}
+
+.sobre-info{
+    width: 470px;
+    display: inline-block;
+    margin: 50px;
+    text-align: justify;
+}
+
+h3{
+    font-size: 30px;
+    text-align:left;
+    color: #9ce2dd;
+    line-height: 50px;
+    
+}
+
+h4{
+    font-size: 20px;
+    text-align: left;
+    color: #9ce2dd;
+    line-height: 35px;
+
+}
+
+@media (max-width: 900px) {
+    .sobre-info{
+        width: 300px;
+        display: block;
+    }
+
+    .logo-karina{
+        width: 250px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+            
+
+}
+
+@media (max-width: 600px) {
+    .sobre-info{
+        width: 250px;
+        display: block;
+    }
+
+    .logo-karina{
+        width: 200px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+}
